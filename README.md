@@ -12,5 +12,5 @@ The goal of the project is to create a program that:
   4. Return the information on the event(s) that decided the outcome of the match.
 
 Documentation of code:
-  1. Shot_Seeker.py : To open a file, find the positions of all the shots within the file, and return a list with those values, to be used in subsequent analysis.
+  1. Shot_Seeker.py : To open a .json file from StatsBomb's Open Dataset, find the positions of all the shots within the file, and return a list with those values, to be used in subsequent analysis.
   2. Shot_Filter.py : to open a .json database and filter out the shots after the 80th minute.
