@@ -5,7 +5,7 @@ from pandas.core.frame import DataFrame
 
 def Shot_Seeker(file):
 
-    '''To open a file, find the positions of all the shots within the file, and return a list with those values.'''
+    '''To open a .json file from Statsbomb's Open Dataset, find the row positions of all the shots within the file, and return a list with those positions.'''
 
     df = pandas.read_json(file) 
     shot_list = []
