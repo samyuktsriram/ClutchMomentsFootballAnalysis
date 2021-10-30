@@ -10,7 +10,7 @@ def Shot_Filter(file):
 
     df = pandas.read_json(file)
 
-    required_shots = Shot_Seeker(file)
+    required_shots = Shot_Seeker.Shot_Seeker(file)
     shots_80 = []
 
     for i in required_shots:
