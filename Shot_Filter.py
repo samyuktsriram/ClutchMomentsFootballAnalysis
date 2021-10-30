@@ -4,7 +4,8 @@ from pandas.core.frame import DataFrame
 import Shot_Seeker
 
 def Shot_Filter(file):
-    '''to filter out the shots after the 80th minute'''
+    '''to filter out the shots after the 80th minute
+    Takes in a .json file from StatsBomb's Datatset and returns a list of dictionary items for each shot'''
 
 
     df = pandas.read_json(file)
