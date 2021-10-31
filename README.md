@@ -7,8 +7,8 @@ The data used is from Statsbomb's Open Data, found here: https://github.com/stat
 
 The goal of the project is to create a program that:
   1. Accepts a list of .json files from Statsbomb's Open Data source, containing event data for each match.
-  2. Finds and filters out shots made in the 80+ minute, high Expected Goal (xG) Blocks, one-on-one opportunities, etc.
-  3. Analyse whether/ how the match was decided in the 80+ minutes.
+  2. Finds and filters out shots made in the 80th+ minute, high Expected Goal (xG) Blocks, one-on-one opportunities, etc.
+  3. Analyse whether/ how the match was decided in the 80th+ minutes.
   4. Return the information on the event(s) that decided the outcome of the match.
 
 Documentation of code:
