@@ -1,7 +1,7 @@
 # ClutchMomentsFootball Analysis: 
 An ongoing project to identify and analyse decisive goals and plays made in high-pressure moments of a football match.
 
-This is a personal project to gain exposure to data-driven analysis, sports related data science and gain hands-on experience working in a data science project.
+This is a personal project to gain exposure to data-driven analysis, sports related data science and gain hands-on experience working on a data science project.
 
 The data used is from Statsbomb's Open Data, found here: https://github.com/statsbomb/open-data
 
