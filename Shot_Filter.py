@@ -15,7 +15,7 @@ def Shot_Filter(file):
 
     for i in required_shots:
         if df.loc[i, 'minute'] > 80:
-            shots_80.append(df.loc[i, 'shot'])
+            shots_80.append(i)
     return shots_80
 
 #Shot_Filter(file)
