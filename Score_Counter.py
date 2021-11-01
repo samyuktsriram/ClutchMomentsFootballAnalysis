@@ -34,7 +34,6 @@ def Score_Counter(file, time):
             elif (df.loc[i, 'possession_team']['name']) == Team2:
                 Score2 = Score2 + 1
 
-            #Similarly for team Away
     return {Team1 : Score1, Team2 : Score2}
 
 
