@@ -3,6 +3,7 @@ import pandas
 from pandas.core.frame import DataFrame
 import Shot_Seeker
 import Shot_Filter
+from Team_Names import Team_Names
 
 def Score_Counter(file, time):
     '''to keep track of the score of a match before the 'time' minute'''
@@ -14,10 +15,10 @@ def Score_Counter(file, time):
     shots_80 = []
     row_shots = []
 
-    #Find out how to get these two teams out like this
-    Team1 = 'Barcelona'
-    Team2 = 'Real Sociedad'
+    Team1 , Team2  = Team_Names(file)
 
+    global Score1
+    global Score2
     Score1 = 0
     Score2 = 0
 
