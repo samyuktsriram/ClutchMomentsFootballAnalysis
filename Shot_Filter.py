@@ -4,8 +4,7 @@ from pandas.core.frame import DataFrame
 import Shot_Seeker
 
 def Shot_Filter(file):
-    '''to filter out the shots after the 80th minute
-    Takes in a .json file from StatsBomb's Open Datatset and returns a list of dictionary items for each shot'''
+    '''to filter out the shots after the 80th minute'''
 
 
     df = pandas.read_json(file)
@@ -18,4 +17,5 @@ def Shot_Filter(file):
             shots_80.append(i)
     return shots_80
 
-#Shot_Filter(file)
+file = '/Users/sam/VSCode/Rough/data2.json'
+Shot_Filter(file)
