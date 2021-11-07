@@ -16,4 +16,6 @@ Documentation of code:
   2. Shot_Filter.py : To open a .json database and filter out the shots after the 80th minute.
   3. Score_Counter.py : To open a .json database, identify goals scored along with their timestamp, filter out goals scored before an inputable time, and return a dictionary containing the scoreline of the match at that time.
   4. Event_Reporter.py : To identify and present crucial events (goals, blocks, etc) in the match from the 80th minute onwards.
-  5. Prob_Math.py : Calculates the expected goals in the 80th minute onwards based on the Statsbomb xG of the shots taken.
+  5. Prob_Math.py : To calculate the expected goals in the 80th minute onwards based on the Statsbomb xG of the shots taken.
+  6. Team_Names.py : To extract the names of the teams playing from the .json database.
+  7. Beta1.py : To analyse a specific match's events. Calculates the expected goals in the 80th minute onwards phase for each team, presents any goals scored in that time, and finally presents the final score of the match.
