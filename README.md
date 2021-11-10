@@ -19,3 +19,4 @@ Documentation of code:
   5. Prob_Math.py : To calculate the expected goals in the 80th minute onwards based on the Statsbomb xG of the shots taken.
   6. Team_Names.py : To extract the names of the teams playing from the .json database.
   7. Beta1.py : To analyse a specific match's events. Calculates the expected goals in the 80th minute onwards phase for each team, presents any goals scored in that time, and finally presents the final score of the match.
+  8. File_Looper.py : To loop over all the 941 events files in the dataset and prepare them for further analysis, through Beta1.py
