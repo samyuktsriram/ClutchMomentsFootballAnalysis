@@ -12,7 +12,7 @@ import Prob_Math
 def main(file):
 
     TeamA, TeamB = Team_Names.Team_Names(file)
-    print('The expected goals in this phase of play are:', Prob_Math.Prob_Math(file, TeamA, TeamB))
+    print('The likelihood of each team scoring a goal in this phase are', Prob_Math.Prob_Math(file, TeamA, TeamB))
     Event_Reporter(file, TeamA, TeamB)
     
-main('/Users/sam/VSCode/Rough/data2.json')
+#main('/Users/sam/VSCode/Rough/data1.json')

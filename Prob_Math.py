@@ -9,7 +9,6 @@ def Prob_Math(file, team1, team2):
 
     '''Calculates the expected value of scoring 1 goal through all the chances for each team in the last minute'''
     events = Shot_Filter.Shot_Filter(file)
-    print(events)
     df = pandas.read_json(file)
 
     TeamA = team1
