@@ -17,5 +17,5 @@ def Shot_Filter(file):
             shots_80.append(i)
     return shots_80
 
-file = '/Users/sam/VSCode/Rough/data2.json'
-Shot_Filter(file)
+#file = '/Users/sam/VSCode/Rough/data2.json'
+#Shot_Filter(file)

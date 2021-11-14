@@ -15,4 +15,4 @@ def Team_Names(file):
 
     return (team_list[0], team_list[1])
 
-Team_Names('/Users/sam/VSCode/Rough/data1.json')
+#Team_Names('/Users/sam/VSCode/Rough/data1.json')
