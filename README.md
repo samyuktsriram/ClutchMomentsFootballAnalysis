@@ -16,7 +16,7 @@ Beta1: Data Visualization and Extraction
 Beta2: Data Engineering
   1. Uses a list of teams in the dataset to find and sort games based on teams in the dataset.
   2. Creates a new database with the following information for every game: 'Team', 'TeamsPlaying', 'Score_at_80', 'Score_at_FT', 'GoalLikelihood_Team', 'GoalLikelihood_Opp', 'GoalDiff_at80', 'GoalDiff_atFT '
-  3. Exports this new database to excel, csv. The above information can be used to find avarages, standard deviations in GoalLikelihoods across teams, further analysis over the entire set of matches.
+  3. Exports this new database to excel, csv. This dashboard can be used to examine team performance, find avarages, standard deviations in GoalLikelihoods across teams, further analysis over the entire set of matches.
 
 
 Documentation of code:
