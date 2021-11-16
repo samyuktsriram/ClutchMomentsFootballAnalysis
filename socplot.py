@@ -26,7 +26,7 @@ class Pitch:
         ax.axis('off')  # this hides the x and y ticks
         plt.ylim(-2, 82)
         plt.xlim(-2, 122)
-        plt.title('Goal Scoring Positions')
+        plt.title('Goal Scoring Shots') #Edited
         pitch_components = self._build_pitch()
         for c in pitch_components:
             ax.add_artist(c)

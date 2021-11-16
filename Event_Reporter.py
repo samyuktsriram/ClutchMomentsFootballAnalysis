@@ -8,11 +8,13 @@ import socplot
 
 file = '/Users/sam/VSCode/Rough/data1.json'
 
-def Event_Reporter(file, team1, team2):
+def Event_Reporter(file, team1, team2, V=False):
 
     '''Presents a list of 'clutch' events and their impact on the score'''
 
-    pitch = socplot.Pitch()
+    
+    shot_rep_listA = []
+    shot_rep_listB = []
 
     df = pandas.read_json(file)
     score = Score_Counter.Score_Counter(file, 80)
@@ -37,7 +39,8 @@ def Event_Reporter(file, team1, team2):
                 Score1 = Score1 + 1
                 x = ((df.loc[i,'location'][0]), 80 - (df.loc[i,'location'][1]))
                 y = ((df.loc[i, 'shot']['end_location'][0]), 80 - (df.loc[i, 'shot']['end_location'][1]))
-                pitch.plot_pass(x,y)
+                shot_rep_listA.append((x,y))
+
             elif (df.loc[i, 'possession_team']['name']) == TeamB:
                 Score2 = Score2 + 1
                 if 'deflected' in  df.loc[i, 'shot']:
@@ -46,7 +49,7 @@ def Event_Reporter(file, team1, team2):
                 else: print(TeamB, 'scored a goal!')
                 x = ((df.loc[i,'location'][0]), 80 -(df.loc[i,'location'][1]))
                 y = ((df.loc[i, 'shot']['end_location'][0]), 80 -(df.loc[i, 'shot']['end_location'][1]))
-                pitch.plot_pass(x,y, color = 'red')
+                shot_rep_listB.append((x,y))
         
         if (df.loc[i, 'shot']['outcome']['id']) != 97:
             if 'one_on_one' in df.loc[i, 'shot']:
@@ -82,9 +85,15 @@ def Event_Reporter(file, team1, team2):
     
     score_final = Score_Counter.Score_Counter(file, 150) #150 is just a really big number, no football games go on that long
     print('The final score was' , score_final)
-    pitch.show()
+    if Score_Counter.Score_Counter(file, 80) != Score_Counter.Score_Counter(file, 150) and V == True:
+        pitch = socplot.Pitch()
+        for i in shot_rep_listB:
+            pitch.plot_pass(i[0], i[1], color = 'red')
+        for i in shot_rep_listA:
+             pitch.plot_pass(i[0], i[1])
+        pitch.show()
 
 
 
 
-Event_Reporter(file, 'Barcelona', 'Real Sociedad')
+#Event_Reporter(file, 'Barcelona', 'Real Sociedad')
