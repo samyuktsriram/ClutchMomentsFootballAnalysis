@@ -7,7 +7,7 @@ To create a database of teams, to analyse and compare their performance and goal
 
 This is a personal project to gain exposure to data-driven analysis, data visualization and engineering, sports related data science and gain hands-on experience working on a data science project. The project employs python, pandas and excel.
 
-Check out the demos! 
+Check out the 'Demos' folder for UserGuides and demonstrations of the project!
 
 The data used is from Statsbomb's Open Data, found here: https://github.com/statsbomb/open-data
 
