@@ -9,7 +9,7 @@ This is a personal project to gain exposure to data-driven analysis, data visual
 
 Check out the 'Demos' folder for UserGuides and demonstrations of the project!
 
-The data used is from Statsbomb's Open Data, found here: https://github.com/statsbomb/open-data
+The data used is from Statsbomb's Open Data as of November 16, 2021, found here: https://github.com/statsbomb/open-data
 
 The goal of the project is to create 2 programs:
 
