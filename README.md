@@ -2,6 +2,7 @@
 An ongoing project: 
 
 To identify and analyse decisive goals and plays made in high-pressure moments of a football match.
+
 To create a database of teams, to analyse and compare their performance and goal-scoring likelihood in these moments of the match. 
 
 This is a personal project to gain exposure to data-driven analysis, data visualization and engineering, sports related data science and gain hands-on experience working on a data science project. The project employs python and pandas to conduct the analysis.
@@ -21,7 +22,7 @@ Beta1: Data Visualization and Extraction
 Beta2: Data Engineering
   1. Uses a list of teams in the dataset to find and sort games based on teams in the dataset.
   2. Creates a new database with the following information for every game: 'Team', 'TeamsPlaying', 'Score_at_80', 'Score_at_FT', 'GoalLikelihood_Team', 'GoalLikelihood_Opp', 'GoalDiff_at80', 'GoalDiff_atFT '
-  3. Exports this new database to excel, csv. This dashboard can be used to examine team performance, find avarages, standard deviations in GoalLikelihoods across teams, further analysis over the entire set of matches.
+  3. Exports this new database to excel, csv. This dashboard can be used to examine team performance, find averages, standard deviations in GoalLikelihoods across teams, further analysis over the entire set of matches.
 
 
 Documentation of code:
