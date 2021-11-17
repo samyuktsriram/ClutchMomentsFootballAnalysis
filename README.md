@@ -3,6 +3,8 @@ An ongoing project to identify and analyse decisive goals and plays made in high
 
 This is a personal project to gain exposure to data-driven analysis, data visualization and engineering, sports related data science and gain hands-on experience working on a data science project. The project employs python and pandas to conduct the analysis.
 
+Check out the demos! 
+
 The data used is from Statsbomb's Open Data, found here: https://github.com/statsbomb/open-data
 
 The goal of the project is to create 2 programs:
