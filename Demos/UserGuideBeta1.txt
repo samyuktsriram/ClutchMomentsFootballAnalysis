@@ -1,0 +1,8 @@
+To run Beta1 for yourself:
+
+  1. Download the code files from the CodeFiles folder.
+  2. Download the Statsbomb Open Dataset and place the code inside the main branch. The code should be at the same level as the 'data' folder.
+  3. Open FileLooper.py and execute the bottom few lines of code. They've been commented and separated from the rest of the code.
+  
+ Just ensure that the code is on the same level as the 'data' folder in the Statsbomb Open Database files. 
+ You can find the data here: https://github.com/statsbomb/open-data

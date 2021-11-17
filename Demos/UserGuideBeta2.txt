@@ -1,0 +1,14 @@
+The question I wanted to answer with Beta2 was: 
+Given a draw-ing scoreline at the 80th minute, what was the quality of goal-scoring chances a team was able to create?
+What about from a losing position? How productive was a team's attack in the crucial moments chasing a game?
+How did these performances compare to an average team in the same match condition?
+
+The excel file makes this analysis easier, as it can gather all data across the 941 matches. 
+It is also easy to filter and reach the exact scoreline scenario that interests you.
+
+Caution: Games that went to penalties have a very high GoalLikelihood for both teams - please keep this in mind when calculating analysis!
+These matches can be found by filtering GDat80 to 0, and sorting GoalLikelihood in descending order. 
+If a game has a ~0.99 GoalLikelihood for both teams, it can be removed from the data. 
+The reason is Statsbomb's dataset counts all the penalties in the shootout with
+
+You can download the excel file and play around with it. Use filters to set-up the match conditions/teams you are interested in!
