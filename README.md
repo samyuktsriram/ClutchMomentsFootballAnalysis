@@ -17,7 +17,7 @@ Beta1: Data Visualization and Extraction
   1. Accepts a list of .json files from Statsbomb's Open Data source, containing event data for each match.
   2. Finds and filters out shots made in the 80th+ minute, high Expected Goal (xG) Blocks, one-on-one opportunities, etc.
   3. Analyse whether/ how the match was decided in the 80th+ minutes, calculating the likelihood of a goal being scored by each team in that time.
-  4. Return the information on the event(s) that decided the outcome of the match. Present a visual of match-scoring goal(s).
+  4. Return the information on the event(s) that decided the outcome of the match. Present a visual of match-winning goal(s).
 
 Beta2: Data Engineering
   1. Uses a list of teams in the dataset to find and sort games based on teams in the dataset.
