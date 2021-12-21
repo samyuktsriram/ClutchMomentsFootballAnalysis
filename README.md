@@ -5,7 +5,7 @@ To identify and analyse decisive goals and plays made in high-pressure moments o
 
 To create a database of teams, to analyse and compare their performance and goal-scoring likelihood in these moments of the match. 
 
-This is a personal project to gain exposure to data-driven analysis, data visualization and engineering, sports related data science and gain hands-on experience working on a data science project. The project employs python, pandas and excel.
+This is a personal project to gain exposure to data-driven analysis, data visualization and engineering, sports related data science and gain hands-on experience working on a data science project. The project employs Python, Pandas and Excel.
 
 Check out the 'Demos' folder for UserGuides and demonstrations of the project!
 
