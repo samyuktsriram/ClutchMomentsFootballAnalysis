@@ -24,6 +24,9 @@ Beta2: Data Engineering
   2. Creates a new database with the following information for every game: 'Team', 'TeamsPlaying', 'Score_at_80', 'Score_at_FT', 'GoalLikelihood_Team', 'GoalLikelihood_Opp', 'GoalDiff_at80', 'GoalDiff_atFT '
   3. Exports this new database to excel, csv. This dashboard can be used to examine team performance, find averages, standard deviations in GoalLikelihoods across teams, further analysis over the entire set of matches.
 
+Visualizations based on the dataset created with Beta2:
+  1. The visualizations and their code can be found in the Visualizations folder.
+
 
 Documentation of code:
   1. Shot_Seeker.py : To open a .json file from StatsBomb's Open Dataset, find the positions of all the shots within the file, and return a list with those values, to be used in subsequent analysis.
