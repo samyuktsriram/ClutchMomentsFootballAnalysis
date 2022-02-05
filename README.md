@@ -7,7 +7,10 @@ To create a database of teams, to analyse and compare their performance and goal
 
 This is a personal project to gain exposure to data-driven analysis, data visualization and engineering, sports related data science and gain hands-on experience working on a data science project. The project employs Python, Pandas and Excel.
 
-Check out the 'Demos' folder for UserGuides and demonstrations of the project!
+Check out the 'Demos' folder for UserGuides and demonstrations of the project! Here's a sample of a visualization based on the processed data!
+  
+  ![GoalDist](https://user-images.githubusercontent.com/93282154/152654098-669cfebf-4ebf-4ffd-977a-190d11afeb71.png)
+
 
 The data used is from Statsbomb's Open Data as of November 16, 2021, found here: https://github.com/statsbomb/open-data
 
@@ -25,7 +28,7 @@ Beta2: Data Engineering
   3. Exports this new database to excel, csv. This dashboard can be used to examine team performance, find averages, standard deviations in GoalLikelihoods across teams, further analysis over the entire set of matches.
 
 Visualizations based on the dataset created with Beta2:
-  1. The visualizations and their code can be found in the Visualizations folder.
+  1. The visualizations and their code can be found in the Visualizations folder. 
 
 
 Documentation of code:
