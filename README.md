@@ -8,6 +8,8 @@ To create a database of teams, to analyse and compare their performance and goal
 This is a personal project to gain exposure to data-driven analysis, data visualization and engineering, sports related data science and gain hands-on experience working on a data science project. The project employs Python, Pandas and Excel.
 
 Check out the 'Demos' folder for UserGuides and demonstrations of the project! Here's a sample of a visualization based on the processed data!
+
+This graph shows how likely a team is to score a goal across various scores, in the dying moments of a football match, based on historical match data. Which team steps it up when down a goal? Which team pushes for a winner when the scores are level?
   
   ![GoalDist](https://user-images.githubusercontent.com/93282154/152654098-669cfebf-4ebf-4ffd-977a-190d11afeb71.png)
 
